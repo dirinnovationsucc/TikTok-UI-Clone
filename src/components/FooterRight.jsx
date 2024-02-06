@@ -97,7 +97,7 @@ function FooterRight({ likes, comments, saves, shares, profilePic }) {
       </div>
       <div className="sidebar-icon record">
         {/* Displaying the record icon */}
-        <img src="https://static.thenounproject.com/png/934821-200.png" alt='Record Icon' />
+        <img src="https://static.thenounproject.com/png/934821-200.png" alt='Record Icon'   onClick={handleUIPopup} />       
       </div>
     </div>
   );
