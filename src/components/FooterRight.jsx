@@ -52,7 +52,7 @@ function FooterRight({ likes, comments, saves, shares, profilePic }) {
         ) : null}
         {/* The user add icon */}
         <FontAwesomeIcon icon={userAddIcon} className='useradd' style={{ width: '15px', height: '15px', color: '#FF0000' }} 
-          onClick={handleUIPopup}/>
+          onClick={handleUserAddClick}/>        
       </div>
       <div className="sidebar-icon">
         {/* The heart icon for liking */}
