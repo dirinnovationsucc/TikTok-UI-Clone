@@ -38,6 +38,11 @@ function FooterRight({ likes, comments, saves, shares, profilePic }) {
     setLiked((prevLiked) => !prevLiked);
   };
 
+  // Function to test interfaces
+  const handleUIPopup = () => {
+        console.log("hello");
+  };
+  
   return (
     <div className="footer-right">
       <div className="sidebar-icon">
